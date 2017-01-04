@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CVGPaymentSelectedView_Example' do
+  pod 'CVGPaymentSelectedView', :path => '../'
+
+  target 'CVGPaymentSelectedView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

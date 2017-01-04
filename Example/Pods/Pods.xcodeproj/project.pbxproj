@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE90D42FEB03E6971A6C0149B9A6BEA /* CVGPaymentSelectedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 310305EAAC46BFBC99E8975DB3E89B9B /* CVGPaymentSelectedView-dummy.m */; };
+		3A337EBF5A44B5201C5992D9AD5653B4 /* Pods-CVGPaymentSelectedView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 709777498CBBBD9DA4FA08ED19EDBF7B /* Pods-CVGPaymentSelectedView_Tests-dummy.m */; };
+		475E811508CD179451A51D7D2BC6F7DC /* Pods-CVGPaymentSelectedView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35A3121F8F05A95BCE062FA6BA86DA97 /* Pods-CVGPaymentSelectedView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648BE473576E8B6533E3AD91B73B1CAE /* Pods-CVGPaymentSelectedView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 667E078D742DF37C5D88CA1C2EA16872 /* Pods-CVGPaymentSelectedView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934FBC4491373BD041DE1AA32A753E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B1F12BEFE5E600548D57C452D8DA0789 /* CVGPaymentSelectedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE391B9962FFBA7821B21A1D30FC3701 /* CVGPaymentSelectedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA475382032D7F9B5B8A038E94982AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CAABB279C4355A0ED5F9D9C8E013D27A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D90638AF45574FF723E3729162E6215A /* Pods-CVGPaymentSelectedView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28920F916BF50A1EC5E173C9789289D6 /* Pods-CVGPaymentSelectedView_Example-dummy.m */; };
+		F77050861E1CAAA900F91285 /* CVGPaymentSelectedView.h in Headers */ = {isa = PBXBuildFile; fileRef = F77050831E1CAAA900F91285 /* CVGPaymentSelectedView.h */; };
+		F77050871E1CAAA900F91285 /* CVGPaymentSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F77050841E1CAAA900F91285 /* CVGPaymentSelectedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8534E14888F86C5C206AB8836DF39657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E81CB763EBF06016CE4F29ED157A2B;
+			remoteInfo = CVGPaymentSelectedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0014FE9DCC7D31B35C6FDD730A53B235 /* Pods-CVGPaymentSelectedView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CVGPaymentSelectedView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1268DF1B68F25ABF0B9572E435650B69 /* Pods-CVGPaymentSelectedView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CVGPaymentSelectedView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C1E444A5245C34441C58031409CA04B /* CVGPaymentSelectedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CVGPaymentSelectedView.xcconfig; sourceTree = "<group>"; };
+		2860CF457373D31436D37222A3274461 /* Pods-CVGPaymentSelectedView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CVGPaymentSelectedView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		28920F916BF50A1EC5E173C9789289D6 /* Pods-CVGPaymentSelectedView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CVGPaymentSelectedView_Example-dummy.m"; sourceTree = "<group>"; };
+		2B6876CB25B5B1B8F2DA2ED0D85E1E0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6F60B1813D66AC46E320CCC25A3106 /* Pods-CVGPaymentSelectedView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CVGPaymentSelectedView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2E96A0E4CDF4285CBCF6C066870C3E03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310305EAAC46BFBC99E8975DB3E89B9B /* CVGPaymentSelectedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CVGPaymentSelectedView-dummy.m"; sourceTree = "<group>"; };
+		3206CB29B1097EEBF8B721D7476558AA /* Pods-CVGPaymentSelectedView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CVGPaymentSelectedView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35A3121F8F05A95BCE062FA6BA86DA97 /* Pods-CVGPaymentSelectedView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CVGPaymentSelectedView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3B4C1126566CAC8A5F5432DDFE238876 /* Pods-CVGPaymentSelectedView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CVGPaymentSelectedView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3EB025840B3C6C8853690ACD5BEACBEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CD126B43CCE21AB4740357594F79CE /* Pods-CVGPaymentSelectedView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CVGPaymentSelectedView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5007023274F0C4E60CCD938F9EAFF5C4 /* Pods-CVGPaymentSelectedView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CVGPaymentSelectedView_Example-resources.sh"; sourceTree = "<group>"; };
+		5035200645D06458D1FA60413BEB62C6 /* Pods_CVGPaymentSelectedView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVGPaymentSelectedView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B47671F7B6FE83BE5FCA376384A7FA /* Pods-CVGPaymentSelectedView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CVGPaymentSelectedView_Tests.modulemap"; sourceTree = "<group>"; };
+		667E078D742DF37C5D88CA1C2EA16872 /* Pods-CVGPaymentSelectedView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CVGPaymentSelectedView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		696B95B1C745EB6B72D4FAC6FC4D0073 /* Pods-CVGPaymentSelectedView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CVGPaymentSelectedView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		709777498CBBBD9DA4FA08ED19EDBF7B /* Pods-CVGPaymentSelectedView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CVGPaymentSelectedView_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F44AED79D8A79C541CCC19D3B73EABD /* CVGPaymentSelectedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CVGPaymentSelectedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE391B9962FFBA7821B21A1D30FC3701 /* CVGPaymentSelectedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVGPaymentSelectedView-umbrella.h"; sourceTree = "<group>"; };
+		AF23BA24564DAF5109290817865456C7 /* CVGPaymentSelectedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CVGPaymentSelectedView-prefix.pch"; sourceTree = "<group>"; };
+		B79031EFBB0DB9C7F8FB30F04C3F2B50 /* Pods_CVGPaymentSelectedView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVGPaymentSelectedView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF736BDF4DD416B1166AAFC34BE01010 /* Pods-CVGPaymentSelectedView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CVGPaymentSelectedView_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFC871852FD9131B34E4237619AFD624 /* Pods-CVGPaymentSelectedView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CVGPaymentSelectedView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E21C3B2BE6A59D0C1776492CF88934E5 /* CVGPaymentSelectedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CVGPaymentSelectedView.modulemap; sourceTree = "<group>"; };
+		EBF01F3B7EF41E3C6B133951CCB0A74F /* Pods-CVGPaymentSelectedView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CVGPaymentSelectedView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F77050831E1CAAA900F91285 /* CVGPaymentSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVGPaymentSelectedView.h; sourceTree = "<group>"; };
+		F77050841E1CAAA900F91285 /* CVGPaymentSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVGPaymentSelectedView.m; sourceTree = "<group>"; };
+		F77050851E1CAAA900F91285 /* CVGPaymentSelectedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVGPaymentSelectedView.xib; sourceTree = "<group>"; };
+		F7B8C4E9B826AEB233FBA0520C1592C6 /* Pods-CVGPaymentSelectedView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CVGPaymentSelectedView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E587D311595C55397F8A96F27A9EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAABB279C4355A0ED5F9D9C8E013D27A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3257B0E48ABB959E517C818CC4005F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA475382032D7F9B5B8A038E94982AC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69449868D96A18309B6B0DA22F3FD32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934FBC4491373BD041DE1AA32A753E00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED29A9E2E32455E8B907704A368B61A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD063E6A475C331CC32660E1305ECF0 /* Pods-CVGPaymentSelectedView_Example */,
+				5B014F90DA1A3FE22EC0074BF1DCA7F0 /* Pods-CVGPaymentSelectedView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5567297F37810CD9A2DCB446C9E783C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21C3B2BE6A59D0C1776492CF88934E5 /* CVGPaymentSelectedView.modulemap */,
+				1C1E444A5245C34441C58031409CA04B /* CVGPaymentSelectedView.xcconfig */,
+				310305EAAC46BFBC99E8975DB3E89B9B /* CVGPaymentSelectedView-dummy.m */,
+				AF23BA24564DAF5109290817865456C7 /* CVGPaymentSelectedView-prefix.pch */,
+				AE391B9962FFBA7821B21A1D30FC3701 /* CVGPaymentSelectedView-umbrella.h */,
+				2E96A0E4CDF4285CBCF6C066870C3E03 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CVGPaymentSelectedView";
+			sourceTree = "<group>";
+		};
+		5B014F90DA1A3FE22EC0074BF1DCA7F0 /* Pods-CVGPaymentSelectedView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EB025840B3C6C8853690ACD5BEACBEF /* Info.plist */,
+				50B47671F7B6FE83BE5FCA376384A7FA /* Pods-CVGPaymentSelectedView_Tests.modulemap */,
+				EBF01F3B7EF41E3C6B133951CCB0A74F /* Pods-CVGPaymentSelectedView_Tests-acknowledgements.markdown */,
+				49CD126B43CCE21AB4740357594F79CE /* Pods-CVGPaymentSelectedView_Tests-acknowledgements.plist */,
+				709777498CBBBD9DA4FA08ED19EDBF7B /* Pods-CVGPaymentSelectedView_Tests-dummy.m */,
+				2860CF457373D31436D37222A3274461 /* Pods-CVGPaymentSelectedView_Tests-frameworks.sh */,
+				3B4C1126566CAC8A5F5432DDFE238876 /* Pods-CVGPaymentSelectedView_Tests-resources.sh */,
+				667E078D742DF37C5D88CA1C2EA16872 /* Pods-CVGPaymentSelectedView_Tests-umbrella.h */,
+				CFC871852FD9131B34E4237619AFD624 /* Pods-CVGPaymentSelectedView_Tests.debug.xcconfig */,
+				696B95B1C745EB6B72D4FAC6FC4D0073 /* Pods-CVGPaymentSelectedView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CVGPaymentSelectedView_Tests";
+			path = "Target Support Files/Pods-CVGPaymentSelectedView_Tests";
+			sourceTree = "<group>";
+		};
+		6A61E418102EF1E6F91413F572518133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F44AED79D8A79C541CCC19D3B73EABD /* CVGPaymentSelectedView.framework */,
+				5035200645D06458D1FA60413BEB62C6 /* Pods_CVGPaymentSelectedView_Example.framework */,
+				B79031EFBB0DB9C7F8FB30F04C3F2B50 /* Pods_CVGPaymentSelectedView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72819E902AA9BC82070F56A3DD85233F /* CVGPaymentSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				F533334C08AAA137C75494E3765DC707 /* Classes */,
+			);
+			path = CVGPaymentSelectedView;
+			sourceTree = "<group>";
+		};
+		740213AE415D0949D3AE7B4CC6FF502E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C718B011F3470B281D3C09BE13E212A /* CVGPaymentSelectedView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				740213AE415D0949D3AE7B4CC6FF502E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6A61E418102EF1E6F91413F572518133 /* Products */,
+				3ED29A9E2E32455E8B907704A368B61A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C718B011F3470B281D3C09BE13E212A /* CVGPaymentSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				72819E902AA9BC82070F56A3DD85233F /* CVGPaymentSelectedView */,
+				5567297F37810CD9A2DCB446C9E783C4 /* Support Files */,
+			);
+			name = CVGPaymentSelectedView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD063E6A475C331CC32660E1305ECF0 /* Pods-CVGPaymentSelectedView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B6876CB25B5B1B8F2DA2ED0D85E1E0F /* Info.plist */,
+				BF736BDF4DD416B1166AAFC34BE01010 /* Pods-CVGPaymentSelectedView_Example.modulemap */,
+				3206CB29B1097EEBF8B721D7476558AA /* Pods-CVGPaymentSelectedView_Example-acknowledgements.markdown */,
+				1268DF1B68F25ABF0B9572E435650B69 /* Pods-CVGPaymentSelectedView_Example-acknowledgements.plist */,
+				28920F916BF50A1EC5E173C9789289D6 /* Pods-CVGPaymentSelectedView_Example-dummy.m */,
+				0014FE9DCC7D31B35C6FDD730A53B235 /* Pods-CVGPaymentSelectedView_Example-frameworks.sh */,
+				5007023274F0C4E60CCD938F9EAFF5C4 /* Pods-CVGPaymentSelectedView_Example-resources.sh */,
+				35A3121F8F05A95BCE062FA6BA86DA97 /* Pods-CVGPaymentSelectedView_Example-umbrella.h */,
+				2D6F60B1813D66AC46E320CCC25A3106 /* Pods-CVGPaymentSelectedView_Example.debug.xcconfig */,
+				F7B8C4E9B826AEB233FBA0520C1592C6 /* Pods-CVGPaymentSelectedView_Example.release.xcconfig */,
+			);
+			name = "Pods-CVGPaymentSelectedView_Example";
+			path = "Target Support Files/Pods-CVGPaymentSelectedView_Example";
+			sourceTree = "<group>";
+		};
+		F533334C08AAA137C75494E3765DC707 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F77050831E1CAAA900F91285 /* CVGPaymentSelectedView.h */,
+				F77050841E1CAAA900F91285 /* CVGPaymentSelectedView.m */,
+				F77050851E1CAAA900F91285 /* CVGPaymentSelectedView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		76729C1136EC18C50CDFCEA16AD74CF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475E811508CD179451A51D7D2BC6F7DC /* Pods-CVGPaymentSelectedView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC755F788A934D6A50114CF3385C220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648BE473576E8B6533E3AD91B73B1CAE /* Pods-CVGPaymentSelectedView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9E0B8F952EE83862D5819824A232CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77050861E1CAAA900F91285 /* CVGPaymentSelectedView.h in Headers */,
+				B1F12BEFE5E600548D57C452D8DA0789 /* CVGPaymentSelectedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39E81CB763EBF06016CE4F29ED157A2B /* CVGPaymentSelectedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848466890018119C431F99442739DE4 /* Build configuration list for PBXNativeTarget "CVGPaymentSelectedView" */;
+			buildPhases = (
+				BEE07883D6DE159ECF6C02736E4E2965 /* Sources */,
+				38E587D311595C55397F8A96F27A9EA0 /* Frameworks */,
+				DE9E0B8F952EE83862D5819824A232CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CVGPaymentSelectedView;
+			productName = CVGPaymentSelectedView;
+			productReference = 9F44AED79D8A79C541CCC19D3B73EABD /* CVGPaymentSelectedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD35F6BB3721B077A5F84C1330F296FC /* Pods-CVGPaymentSelectedView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23364C55E6B81A40C87A3DDB140ED445 /* Build configuration list for PBXNativeTarget "Pods-CVGPaymentSelectedView_Example" */;
+			buildPhases = (
+				B8FBC13CF916E1B3EFEB22893B0E91F4 /* Sources */,
+				E69449868D96A18309B6B0DA22F3FD32 /* Frameworks */,
+				76729C1136EC18C50CDFCEA16AD74CF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D154D52001D4B4B88FAFD7A97043747 /* PBXTargetDependency */,
+			);
+			name = "Pods-CVGPaymentSelectedView_Example";
+			productName = "Pods-CVGPaymentSelectedView_Example";
+			productReference = 5035200645D06458D1FA60413BEB62C6 /* Pods_CVGPaymentSelectedView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCCB0735120DED3677FCF5DEC7C10F71 /* Pods-CVGPaymentSelectedView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0728AC3EBC8099D3F686C7CB6BEDB70D /* Build configuration list for PBXNativeTarget "Pods-CVGPaymentSelectedView_Tests" */;
+			buildPhases = (
+				D1ADD527BCAF79470DEF5ABB41735818 /* Sources */,
+				D3257B0E48ABB959E517C818CC4005F4 /* Frameworks */,
+				CEC755F788A934D6A50114CF3385C220 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CVGPaymentSelectedView_Tests";
+			productName = "Pods-CVGPaymentSelectedView_Tests";
+			productReference = B79031EFBB0DB9C7F8FB30F04C3F2B50 /* Pods_CVGPaymentSelectedView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6A61E418102EF1E6F91413F572518133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E81CB763EBF06016CE4F29ED157A2B /* CVGPaymentSelectedView */,
+				BD35F6BB3721B077A5F84C1330F296FC /* Pods-CVGPaymentSelectedView_Example */,
+				FCCB0735120DED3677FCF5DEC7C10F71 /* Pods-CVGPaymentSelectedView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FBC13CF916E1B3EFEB22893B0E91F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90638AF45574FF723E3729162E6215A /* Pods-CVGPaymentSelectedView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE07883D6DE159ECF6C02736E4E2965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FE90D42FEB03E6971A6C0149B9A6BEA /* CVGPaymentSelectedView-dummy.m in Sources */,
+				F77050871E1CAAA900F91285 /* CVGPaymentSelectedView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1ADD527BCAF79470DEF5ABB41735818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A337EBF5A44B5201C5992D9AD5653B4 /* Pods-CVGPaymentSelectedView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D154D52001D4B4B88FAFD7A97043747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CVGPaymentSelectedView;
+			target = 39E81CB763EBF06016CE4F29ED157A2B /* CVGPaymentSelectedView */;
+			targetProxy = 8534E14888F86C5C206AB8836DF39657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F38B796B964AAC2F4731BDC19C593E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6F60B1813D66AC46E320CCC25A3106 /* Pods-CVGPaymentSelectedView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Example/Pods-CVGPaymentSelectedView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CVGPaymentSelectedView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40CFDD2DC6865F207F166580E68AC5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B8C4E9B826AEB233FBA0520C1592C6 /* Pods-CVGPaymentSelectedView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Example/Pods-CVGPaymentSelectedView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CVGPaymentSelectedView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ADD458C2C1B0A72E4B2B24E87F0674E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1E444A5245C34441C58031409CA04B /* CVGPaymentSelectedView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVGPaymentSelectedView/CVGPaymentSelectedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVGPaymentSelectedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVGPaymentSelectedView/CVGPaymentSelectedView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CVGPaymentSelectedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82843851526D742352DD464A4481599E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC871852FD9131B34E4237619AFD624 /* Pods-CVGPaymentSelectedView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Tests/Pods-CVGPaymentSelectedView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CVGPaymentSelectedView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D25995AE4FB797A0FFCC6BEFEC56CAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C1E444A5245C34441C58031409CA04B /* CVGPaymentSelectedView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CVGPaymentSelectedView/CVGPaymentSelectedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CVGPaymentSelectedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CVGPaymentSelectedView/CVGPaymentSelectedView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CVGPaymentSelectedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E83BA5E9C1880E3709F9285405245618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696B95B1C745EB6B72D4FAC6FC4D0073 /* Pods-CVGPaymentSelectedView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CVGPaymentSelectedView_Tests/Pods-CVGPaymentSelectedView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CVGPaymentSelectedView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0728AC3EBC8099D3F686C7CB6BEDB70D /* Build configuration list for PBXNativeTarget "Pods-CVGPaymentSelectedView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82843851526D742352DD464A4481599E /* Debug */,
+				E83BA5E9C1880E3709F9285405245618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848466890018119C431F99442739DE4 /* Build configuration list for PBXNativeTarget "CVGPaymentSelectedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25995AE4FB797A0FFCC6BEFEC56CAC3 /* Debug */,
+				4ADD458C2C1B0A72E4B2B24E87F0674E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23364C55E6B81A40C87A3DDB140ED445 /* Build configuration list for PBXNativeTarget "Pods-CVGPaymentSelectedView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F38B796B964AAC2F4731BDC19C593E1 /* Debug */,
+				40CFDD2DC6865F207F166580E68AC5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

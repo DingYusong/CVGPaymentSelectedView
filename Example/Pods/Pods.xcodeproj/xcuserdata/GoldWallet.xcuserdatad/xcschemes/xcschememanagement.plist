@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CVGPaymentSelectedView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CVGPaymentSelectedView_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-CVGPaymentSelectedView_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>39E81CB763EBF06016CE4F29ED157A2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD35F6BB3721B077A5F84C1330F296FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FCCB0735120DED3677FCF5DEC7C10F71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

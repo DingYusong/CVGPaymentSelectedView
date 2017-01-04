@@ -1,0 +1,16 @@
+PODS:
+  - CVGPaymentSelectedView (0.1.0)
+
+DEPENDENCIES:
+  - CVGPaymentSelectedView (from `../`)
+
+EXTERNAL SOURCES:
+  CVGPaymentSelectedView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CVGPaymentSelectedView: ef7f030fe176262589f41e4fbf0e198aac140aef
+
+PODFILE CHECKSUM: 24638eebce4c3a29c2b516e23e75b25d9e2fe270
+
+COCOAPODS: 1.1.1

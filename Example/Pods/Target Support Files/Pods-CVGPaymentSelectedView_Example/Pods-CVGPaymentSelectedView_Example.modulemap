@@ -1,0 +1,6 @@
+framework module Pods_CVGPaymentSelectedView_Example {
+  umbrella header "Pods-CVGPaymentSelectedView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

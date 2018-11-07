@@ -47,7 +47,7 @@
 
 - (void)assignUIWithCanUserBalanceMoney:(long long)money bankLimit:(NSString *)limitString
 {
-    NSString *canUseMoney = [ASGAppHelper transToMoneyStrWithUnit:money];
+    NSString *canUseMoney = [NSString stringWithFormat:@"%.2f元",money/100.0];
     self.moneyCanUseLabel.text = [NSString stringWithFormat:@"可用余额%@",canUseMoney];
 
     if (limitString && limitString.length) {
